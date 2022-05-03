@@ -48,3 +48,32 @@ colores.push("tutankamon")
 
 console.log(objeto);
 console.log(colores);
+
+//Cadenas de texto
+let nombre="el payaso";
+let apellido="chupetin";
+let saludo=new String("Hola peperonni");
+let loro="      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quia recusandae molestias in. Vitae veritatis ullam harum non numquam maxime ad molestias expedita, perspiciatis aperiam laudantium cupiditate? Delectus, illo eos.";
+
+console.log(nombre,apellido,saludo);
+console.log(nombre.length,apellido.length,saludo.length);
+console.log(nombre.toUpperCase());
+console.log(nombre.toLowerCase());
+console.log(loro.includes("in"));
+console.log(loro.trim());
+console.log(loro.split(" "));
+
+//Interpolaciòn de variables
+//template String
+let saludo2= `Hola, yo no soy ${nombre} ${apellido}`;
+console.log(saludo2);
+
+let ul= `
+    <ul>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ul>`
+
+console.log(ul);
